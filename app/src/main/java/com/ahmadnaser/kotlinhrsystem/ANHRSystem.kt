@@ -5,9 +5,7 @@ package com.ahmadnaser.kotlinhrsystem
 // www.khottah.com
 ///greenbackend@ahmadnaser.com
 ///copyright © 2018 ANTS LLC. All rights reserved.
-/**
- * Created by windows on 3/21/2018.
- */
+
 
 import android.app.Application
 import com.android.volley.Request
