@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ahmadnaser.kotlinhrsystem.EditEmployeeActivity">
+
+    <EditText
+        android:id="@+id/updateEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Name"
+        />
+    <EditText
+        android:id="@+id/updateEmployeePos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Position"
+        />
+    <EditText
+        android:id="@+id/updateEmployeeSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Salary"
+        />
+    <EditText
+        android:id="@+id/updateEmployeeExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Experience"
+        />
+
+    <Button
+        android:id="@+id/btnEmployeeupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="Update"
+        android:onClick="EditEmployee"
+        />
+
+    <ProgressBar
+        android:id="@+id/prgsEmployeeUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_horizontal|center"
+        android:padding="10dp"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ahmadnaser.kotlinhrsystem.AddEmployeeActivity">
+
+    <EditText
+        android:id="@+id/editEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Name"
+        />
+    <EditText
+        android:id="@+id/editEmployeePos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Position"
+        />
+    <EditText
+        android:id="@+id/editEmployeeSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Salary"
+        />
+    <EditText
+        android:id="@+id/editEmployeeExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Experience"
+        />
+
+    <Button
+        android:id="@+id/btnEmployeeSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="Send"
+        />
+
+    <ProgressBar
+        android:id="@+id/prgsEmployeeAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_horizontal|center"
+        android:padding="10dp"
+        android:visibility="visible" />
+
+
+</LinearLayout>
